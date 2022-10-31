@@ -6,6 +6,7 @@ It can generate password having combinations of :
 - Number
 - Symbol
 - Some specific string
+- Special Characters
 
 # snapshot
 ![snapshot](Screenshot.PNG)
