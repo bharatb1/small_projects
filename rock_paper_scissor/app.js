@@ -129,6 +129,6 @@ function main() {
       resetScore();
   })
 }
-
+// edited the document 
 main();
 <!--pls ignore this comment-->
