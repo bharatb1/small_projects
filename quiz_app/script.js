@@ -47,6 +47,7 @@ let score = 0;
 
 loadQuiz();
 
+// Runs the quiz
 function loadQuiz() {
   deselect();
 
@@ -60,6 +61,7 @@ function loadQuiz() {
   d_text.innerText = currentQuizData.d;
 }
 
+// To select option
 function getSelected() {
   const answerEls = document.querySelectorAll(".answer");
 
@@ -74,6 +76,7 @@ function getSelected() {
   return answer;
 }
 
+// Deselect an option
 function deselect() {
   answerEls.forEach((answerEl) => {
     answerEl.checked = false;
